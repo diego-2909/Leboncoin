@@ -1,0 +1,42 @@
+# ============================================================
+#  Configuration du bot Leboncoin -> Telegram
+#  Modifie ce fichier puis relance le bot pour appliquer.
+# ============================================================
+
+[telegram]
+# Le token donné par @BotFather (voir README, étape 2)
+token = "COLLE_TON_TOKEN_ICI"
+# Ton identifiant de chat (voir README, étape 3 : python3 bot.py --chat-id)
+chat_id = "COLLE_TON_CHAT_ID_ICI"
+
+[recherche]
+# Mots-clés tapés dans la barre de recherche Leboncoin
+mots_cles = "ps5"
+
+# Catégorie : "consoles" (recommandé), "jeux_video" ou "toutes"
+categorie = "consoles"
+
+# Prix en euros
+prix_min = 0
+prix_max = 450
+
+# Zone de recherche
+ville = "Toulouse"
+latitude = 43.6045
+longitude = 1.4442
+rayon_km = 50
+
+# Une annonce est ignorée si son titre OU sa description contient
+# un de ces mots (majuscules et accents ignorés).
+# Exemple pour filtrer davantage : ["recherche", "manette", "boite vide", "hs", "cherche"]
+mots_exclus = ["recherche"]
+
+# Optionnel : l'annonce doit contenir au moins un de ces mots dans le TITRE.
+# Laisse [] pour désactiver. Exemple : ["ps5", "playstation 5", "playstation5"]
+mots_obligatoires_titre = []
+
+[frequence]
+# Délai entre deux vérifications, tiré au hasard entre ces deux valeurs (en secondes).
+# En dessous de ~20 s tu risques de te faire bloquer par l'anti-bot de Leboncoin.
+attente_min = 25
+attente_max = 45
