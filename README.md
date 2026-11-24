@@ -95,3 +95,7 @@ Si ça arrive souvent, augmente `attente_min` et `attente_max` (par exemple 40 e
 Une PS5 très en dessous du prix du marché est souvent une arnaque. Méfie-toi si le vendeur
 veut passer sur WhatsApp, demande un virement ou un paiement hors Leboncoin, ou envoie un faux lien « paiement sécurisé ».
 Privilégie la remise en main propre ou le paiement sécurisé **dans** l'app Leboncoin.
+
+## Version en ligne 24h/24 (gratuite, configurable depuis un iPhone)
+
+Voir [GUIDE_ORACLE_IPHONE.md](GUIDE_ORACLE_IPHONE.md) et le fichier `oracle-cloud-init.yaml`.
